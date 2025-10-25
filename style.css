@@ -1,0 +1,71 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.ch:checked+label{
+
+    color: rgb(11, 236, 67);
+    /* display: none; */
+        accent-color: rgb(175, 53, 223);
+
+}
+a:visited{
+    color: aqua;
+}
+p{
+    width: 200px;
+    height: 200px;
+}
+:empty{
+    border: 3px solid red;
+}
+.in{
+    border: 3px solid rgb(218, 16, 150);
+    background-color: aqua;
+}
+.in:focus{
+    border:1px solid rgb(51, 5, 177);
+    outline:none;
+        
+
+    
+}
+button{
+    color: rgb(15, 15, 8);
+    background-color: rgb(15, 196, 8);
+
+}
+
+span{
+    background-color: red;
+    /* display: inline-block */
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+ .l222::first-letter{
+       background-color: red;add
+    /* display: inline-block */
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+ }
+ .l333::selection{
+    background-color: black;
+    color: yellow;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
